@@ -32,9 +32,9 @@ namespace AulaPOOCelular.Classe
             Console.WriteLine($"O celular está:{fazendoLigacao}");
 
             if(this.ligado == true){
-                Console.WriteLine("O celular está ligado.");
+                Console.WriteLine("fazendo ligação");
             }else{
-                Console.WriteLine("O celular está desligado.");
+                Console.WriteLine("Ligue o celular se queise fazer uma ligação.");
             }
         
         }
